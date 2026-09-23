@@ -1,6 +1,6 @@
-# Chroma Shades & Blinds (GitHub Pages mirror)
+# Your Blinds LLC (GitHub Pages static site)
 
-This repo is intended to host a **static** copy of `chromashadesandblinds.com` on GitHub Pages.
+This repo is intended to host a **static** Your Blinds LLC website on GitHub Pages.
 
 ## How to build the site (download + rewrite links)
 
@@ -8,7 +8,7 @@ From this folder:
 
 ```bash
 rm -rf docs
-python3 mirror_site.py --start "https://chromashadesandblinds.com/"
+python3 mirror_site.py --start "https://yourblindsllc.com/"
 ```
 
 This will create a `docs/` folder containing the mirrored site content (HTML + assets). GitHub Pages can serve directly from `docs/`.
@@ -23,7 +23,7 @@ Then open `http://localhost:5173`.
 
 ## Publish on GitHub Pages
 
-1. Create a GitHub repo (example: `chroma-shades-site`)
+1. Create a GitHub repo (example: `your-blinds-site`)
 2. Push this code to GitHub
 3. In GitHub repo settings:
    - Pages → **Build and deployment**
